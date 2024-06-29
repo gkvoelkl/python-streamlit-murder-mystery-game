@@ -4,7 +4,7 @@
 
 Wer ist der Mörder. Du bist der Detektiv und befrägst die sechs Verdächtigen. Diese spielt ChatGPT.
 
-<img src="img/image2.jpg" width="640" align="left"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="img/image2.jpg" width="640" align="left"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 Die Fälle hat ebenfalls ChatGPT generiert. Die Bilder hat Dall-e erstellt. Mit einer lokalen Kopie des Programmes kannst du dir von ChatGPT neue Fälle erzeugen lassen.
 
