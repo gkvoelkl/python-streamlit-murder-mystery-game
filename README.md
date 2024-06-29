@@ -1,6 +1,6 @@
 # cases - murder mystery game mit ChatGPT
 
-<img src="img/image1.jpg" width="640" align="left"><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="img/image1.jpg" width="640" align="left"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 Wer ist der Mörder. Du bist der Detektiv und befrägst die sechs Verdächtigen. Diese spielt ChatGPT.
 
