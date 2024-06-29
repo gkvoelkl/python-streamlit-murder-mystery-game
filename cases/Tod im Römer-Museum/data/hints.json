@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Ein zerbrochenes Glas wurde in der Nähe des Tatorts gefunden.",
+    "x": 4,
+    "y": 0,
+    "misleading": false
+  },
+  {
+    "text": "Claudia Fuchs wurde kurz nach 19:00 Uhr im Römischen Atrium gesehen.",
+    "x": 3,
+    "y": 1,
+    "misleading": false
+  },
+  {
+    "text": "Ein wertvolles Artefakt wurde aus der Ausstellungshalle gestohlen.",
+    "x": 7,
+    "y": 2,
+    "misleading": true
+  },
+  {
+    "text": "David Becker hatte einen heftigen Streit mit Dr. Stein am Nachmittag.",
+    "x": 8,
+    "y": 3,
+    "misleading": true
+  },
+  {
+    "text": "Eine unbekannte Person wurde im Restaurationslabor gesehen.",
+    "x": 4,
+    "y": 7,
+    "misleading": true
+  },
+  {
+    "text": "Helmut Wagner hat Claudia Fuchs im Lagerraum geholfen.",
+    "x": 1,
+    "y": 8,
+    "misleading": false
+  },
+  {
+    "text": "Anna Müller war beschäftigt mit Restaurationsarbeiten um 19:15 Uhr.",
+    "x": 3,
+    "y": 6,
+    "misleading": false
+  },
+  {
+    "text": "Ein altes Dokument über römische Artefakte fehlt aus der Bibliothek.",
+    "x": 1,
+    "y": 4,
+    "misleading": true
+  },
+  {
+    "text": "Elena Richter hat gehört, wie jemand laut im Verwaltungsbüro telefonierte.",
+    "x": 6,
+    "y": 4,
+    "misleading": true
+  },
+  {
+    "text": "Nachdem das Licht im Museum flackerte, gab es einen lauten Knall.",
+    "x": 2,
+    "y": 2,
+    "misleading": false
+  }
+]

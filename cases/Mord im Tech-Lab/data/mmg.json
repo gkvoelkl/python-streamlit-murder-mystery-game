@@ -1,0 +1,12 @@
+{
+  "title": "Mord im Tech-Lab",
+  "description": "Ein spannendes Murder Mystery Game, das in einem modernen Technologieunternehmen spielt.",
+  "story": "Dr. Lena Fischer, die leitende Forscherin des Unternehmens, wurde ermordet. Der Mord ereignete sich am Abend vor der großen Präsentation des neuesten KI-Produkts. Der Spieler übernimmt die Rolle des Detektivs, der den Fall lösen muss.",
+  "player": {
+    "position": [0, 0]
+  },
+  "victim": "Dr. Lena Fischer",
+  "time": "19:30 Uhr, am Abend vor der Markteinführung",
+  "room": "Serverraum",
+  "killer": "Maximilian Weber"
+}

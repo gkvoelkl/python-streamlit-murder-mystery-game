@@ -1,0 +1,9 @@
+{
+  "title": "Mord im Herrenhaus",
+  "description": "Erforsche das Herrenhaus, finde Hinweise und löse das Rätsel um den Mord an Dr. Jonathan Blackwood.",
+  "story": "Dr. Jonathan Blackwood, ein renommierter Mediziner, wurde tot in der Bibliothek des Blackwood-Herrenhauses aufgefunden. Er wurde während einer Feier mit seinen engsten Freunden und Kollegen ermordet.",
+  "player": {
+    "position": [0, 0]
+  },
+  "killer": "Isabella Blackwood"
+}

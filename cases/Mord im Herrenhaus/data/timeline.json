@@ -1,0 +1,222 @@
+{
+  "Emily White": [
+    {
+      "time": "18:00 - 18:30",
+      "location": "Foyer",
+      "activity": "Telefoniert mit einem Mandanten, um einen dringenden Fall zu besprechen.",
+      "companions": "Allein"
+    },
+    {
+      "time": "18:30 - 19:00",
+      "location": "Wohnzimmer",
+      "activity": "Spricht mit Clara über die Abendessen-Vorbereitungen und klärt Details.",
+      "companions": "Clara"
+    },
+    {
+      "time": "19:00 - 19:30",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, unterhält sich mit den anderen Gästen über allgemeine Themen.",
+      "companions": "Alle"
+    },
+    {
+      "time": "19:30 - 20:00",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, fragt Oliver nach seiner Meinung zu einem juristischen Fall.",
+      "companions": "Alle"
+    },
+    {
+      "time": "20:00 - 20:30",
+      "location": "Foyer",
+      "activity": "Bespricht mit David eine rechtliche Angelegenheit, die seine Geschäftsinteressen betrifft.",
+      "companions": "David"
+    },
+    {
+      "time": "20:30 - 21:00",
+      "location": "Küche",
+      "activity": "Hilft dem Küchenpersonal bei der Vorbereitung von Getränken für die Gäste.",
+      "companions": "Küchenpersonal"
+    },
+    {
+      "time": "21:00 - 21:30",
+      "location": "Wohnzimmer",
+      "activity": "Unterhält sich mit Oliver über juristische Probleme und seine Vergangenheit.",
+      "companions": "Oliver"
+    }
+  ],
+  "Oliver Smith": [
+    {
+      "time": "18:00 - 18:30",
+      "location": "Garten",
+      "activity": "Raucht eine Zigarette und denkt über das bevorstehende Abendessen nach.",
+      "companions": "Allein"
+    },
+    {
+      "time": "18:30 - 19:00",
+      "location": "Keller",
+      "activity": "Sucht nach einem Werkzeug, um eine lose Schraube im Gartenhaus zu reparieren.",
+      "companions": "Allein"
+    },
+    {
+      "time": "19:00 - 19:30",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, hört aufmerksam zu, sagt aber wenig.",
+      "companions": "Alle"
+    },
+    {
+      "time": "19:30 - 20:00",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, gibt vorsichtige Antworten auf Emilys Fragen.",
+      "companions": "Alle"
+    },
+    {
+      "time": "20:00 - 20:30",
+      "location": "Büro",
+      "activity": "Durchsucht heimlich Unterlagen von Dr. Blackwood, um Informationen über seine Behandlung zu finden.",
+      "companions": "Allein"
+    },
+    {
+      "time": "20:30 - 21:00",
+      "location": "Garten",
+      "activity": "Telefoniert mit einem Freund und beklagt sich über seine gesundheitlichen Probleme.",
+      "companions": "Allein"
+    },
+    {
+      "time": "21:00 - 21:30",
+      "location": "Wohnzimmer",
+      "activity": "Unterhält sich mit Emily über seine gesundheitlichen Probleme und seine Beziehung zu Dr. Blackwood.",
+      "companions": "Emily"
+    }
+  ],
+  "Sophia Blackwood": [
+    {
+      "time": "18:00 - 18:30",
+      "location": "Schlafzimmer",
+      "activity": "Bereitet sich auf die Feier vor, indem sie ein passendes Kleid auswählt.",
+      "companions": "Allein"
+    },
+    {
+      "time": "18:30 - 19:00",
+      "location": "Esszimmer",
+      "activity": "Überprüft die Tischdekoration und stellt sicher, dass alles perfekt ist.",
+      "companions": "Allein"
+    },
+    {
+      "time": "19:00 - 19:30",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, führt die Unterhaltung und sorgt für eine angenehme Atmosphäre.",
+      "companions": "Alle"
+    },
+    {
+      "time": "19:30 - 20:00",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, erzählt Anekdoten aus vergangenen gemeinsamen Erlebnissen.",
+      "companions": "Alle"
+    },
+    {
+      "time": "20:00 - 20:30",
+      "location": "Wohnzimmer",
+      "activity": "Spricht mit Clara über persönliche Familienangelegenheiten und den Gesundheitszustand von Dr. Blackwood.",
+      "companions": "Clara"
+    },
+    {
+      "time": "20:30 - 21:00",
+      "location": "Bibliothek",
+      "activity": "Sucht nach einem bestimmten Buch, das Dr. Blackwood ihr empfohlen hat.",
+      "companions": "Allein"
+    },
+    {
+      "time": "21:00 - 21:30",
+      "location": "Bibliothek",
+      "activity": "Begeht die Tat an Dr. Blackwood. Sie tut so, als ob sie ihn gerade gefunden hat und schreit um Hilfe.",
+      "companions": "Allein"
+    }
+  ],
+  "David Johnson": [
+    {
+      "time": "18:00 - 18:30",
+      "location": "Büro",
+      "activity": "Geht Geschäftsdokumente durch, die er später mit Dr. Blackwood besprechen will.",
+      "companions": "Allein"
+    },
+    {
+      "time": "18:30 - 19:00",
+      "location": "Büro",
+      "activity": "Schreibt E-Mails an Geschäftspartner, um einige dringende Angelegenheiten zu klären.",
+      "companions": "Allein"
+    },
+    {
+      "time": "19:00 - 19:30",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, diskutiert leise mit Dr. Blackwood über Geschäftliches.",
+      "companions": "Alle"
+    },
+    {
+      "time": "19:30 - 20:00",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, spricht mit David und Emily über mögliche Investitionen.",
+      "companions": "Alle"
+    },
+    {
+      "time": "20:00 - 20:30",
+      "location": "Foyer",
+      "activity": "Diskutiert mit Emily über eine rechtliche Frage, die seine Geschäfte betrifft.",
+      "companions": "Emily"
+    },
+    {
+      "time": "20:30 - 21:00",
+      "location": "Esszimmer",
+      "activity": "Trinkt einen Kaffee und denkt über das Gespräch mit Dr. Blackwood nach.",
+      "companions": "Allein"
+    },
+    {
+      "time": "21:00 - 21:30",
+      "location": "Wohnzimmer",
+      "activity": "Trinkt einen Whiskey und denkt über seine geschäftlichen Probleme nach.",
+      "companions": "Allein"
+    }
+  ],
+  "Clara Blackwood": [
+    {
+      "time": "18:00 - 18:30",
+      "location": "Wohnzimmer",
+      "activity": "Liest ein Buch, um sich von der angespannten Familienatmosphäre abzulenken.",
+      "companions": "Allein"
+    },
+    {
+      "time": "18:30 - 19:00",
+      "location": "Wohnzimmer",
+      "activity": "Spricht mit Emily über die Anspannung in der Familie und sucht Rat.",
+      "companions": "Emily"
+    },
+    {
+      "time": "19:00 - 19:30",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, versucht sich an den Gesprächen zu beteiligen, wirkt aber abwesend.",
+      "companions": "Alle"
+    },
+    {
+      "time": "19:30 - 20:00",
+      "location": "Esszimmer",
+      "activity": "Beim Abendessen, stellt Fragen an Sophia über Familiengeschichten.",
+      "companions": "Alle"
+    },
+    {
+      "time": "20:00 - 20:30",
+      "location": "Wohnzimmer",
+      "activity": "Spricht mit Sophia über ihre Gefühle und versucht, sie zu trösten.",
+      "companions": "Sophia"
+    },
+    {
+      "time": "20:30 - 21:00",
+      "location": "Garten",
+      "activity": "Spaziert alleine und versucht, ihre Gedanken zu ordnen.",
+      "companions": "Allein"
+    },
+    {
+      "time": "21:00 - 21:30",
+      "location": "Büro",
+      "activity": "Durchsucht die Unterlagen ihres Vaters, um Hinweise auf finanzielle Angelegenheiten zu finden.",
+      "companions": "Allein"
+    }
+  ]
+}

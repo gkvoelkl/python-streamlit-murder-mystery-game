@@ -1,0 +1,11 @@
+[
+    {"name": "Foyer", "x": 0, "y": 0, "width": 3, "height": 3, "color": "lightgray"},
+    {"name": "Bibliothek", "x": 3, "y": 0, "width": 3, "height": 3, "color": "lightblue"},
+    {"name": "Esszimmer", "x": 6, "y": 0, "width": 3, "height": 3, "color": "lightgreen"},
+    {"name": "Küche", "x": 0, "y": 3, "width": 3, "height": 3, "color": "lightyellow"},
+    {"name": "Wohnzimmer", "x": 3, "y": 3, "width": 3, "height": 3, "color": "lightcoral"},
+    {"name": "Büro", "x": 6, "y": 3, "width": 3, "height": 3, "color": "lightcyan"},
+    {"name": "Schlafzimmer", "x": 0, "y": 6, "width": 3, "height": 3, "color": "lightpink"},
+    {"name": "Garten", "x": 3, "y": 6, "width": 3, "height": 3, "color": "lightgoldenrodyellow"},
+    {"name": "Keller", "x": 6, "y": 6, "width": 3, "height": 3, "color": "lightsteelblue"}
+]

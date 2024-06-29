@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Eingangshalle",
+    "x": 0,
+    "y": 0,
+    "width": 3,
+    "height": 3,
+    "color": "#FFDDC1"
+  },
+  {
+    "name": "Römisches Atrium",
+    "x": 3,
+    "y": 0,
+    "width": 3,
+    "height": 3,
+    "color": "#FFB6C1"
+  },
+  {
+    "name": "Ausstellungshalle",
+    "x": 6,
+    "y": 0,
+    "width": 3,
+    "height": 3,
+    "color": "#FFA07A"
+  },
+  {
+    "name": "Bibliothek",
+    "x": 0,
+    "y": 3,
+    "width": 3,
+    "height": 3,
+    "color": "#E6E6FA"
+  },
+  {
+    "name": "Konferenzraum",
+    "x": 3,
+    "y": 3,
+    "width": 3,
+    "height": 3,
+    "color": "#B0E0E6"
+  },
+  {
+    "name": "Verwaltungsbüro",
+    "x": 6,
+    "y": 3,
+    "width": 3,
+    "height": 3,
+    "color": "#98FB98"
+  },
+  {
+    "name": "Lagerraum",
+    "x": 0,
+    "y": 6,
+    "width": 3,
+    "height": 3,
+    "color": "#FFD700"
+  },
+  {
+    "name": "Restaurationslabor",
+    "x": 3,
+    "y": 6,
+    "width": 3,
+    "height": 3,
+    "color": "#87CEEB"
+  },
+  {
+    "name": "Cafe",
+    "x": 6,
+    "y": 6,
+    "width": 3,
+    "height": 3,
+    "color": "#D3D3D3"
+  }
+]

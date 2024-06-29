@@ -1,0 +1,62 @@
+[
+  {
+    "text": "Maximilian Weber wurde zuletzt im Serverraum gesehen.",
+    "x": 10,
+    "y": 8,
+    "misleading": false
+  },
+  {
+    "text": "Sophie Berger hat sich nach 18:00 nie mehr vom Personalbüro entfernt.",
+    "x": 3,
+    "y": 3,
+    "misleading": true
+  },
+  {
+    "text": "Ein Sicherheitsbericht zeigt, dass Karl Müller während des Mordes in der Eingangshalle war.",
+    "x": 1,
+    "y": 1,
+    "misleading": false
+  },
+  {
+    "text": "Anita Schmid hatte ein intensives Gespräch mit Clara Weiss im Pausenraum.",
+    "x": 2,
+    "y": 6,
+    "misleading": true
+  },
+  {
+    "text": "Thomas Bauer war allein im Entwicklerbüro, als der Mord geschah.",
+    "x": 6,
+    "y": 1,
+    "misleading": true
+  },
+  {
+    "text": "Clara Weiss hat im Personalbüro etwas Verdächtiges gesehen.",
+    "x": 4,
+    "y": 4,
+    "misleading": true
+  },
+  {
+    "text": "Ein Zeuge behauptet, dass er Maximilian Weber vor 19:00 im Serverraum gesehen hat.",
+    "x": 10,
+    "y": 9,
+    "misleading": false
+  },
+  {
+    "text": "Sophie Berger hat sich mit Maximilian Weber im Serverraum gestritten.",
+    "x": 10,
+    "y": 8,
+    "misleading": true
+  },
+  {
+    "text": "Anita Schmid hat die Sicherheitskameras manipuliert.",
+    "x": 4,
+    "y": 4,
+    "misleading": true
+  },
+  {
+    "text": "Thomas Bauer und Maximilian Weber haben zusammen im Serverraum gearbeitet.",
+    "x": 10,
+    "y": 8,
+    "misleading": false
+  }
+]

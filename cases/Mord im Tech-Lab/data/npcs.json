@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Maximilian Weber",
+    "description": "Der ambitionierte Chief Technology Officer (CTO) des Unternehmens.",
+    "image": "maximilian.jpg",
+    "x": 5,
+    "y": 8,
+    "icon": "W",
+    "backstory": "Maximilian ist seit fünf Jahren im Unternehmen und bekannt für seine skrupellosen Methoden, um voranzukommen.",
+    "relationships": {
+      "Lena Fischer": "hostile",
+      "Sophie Berger": "neutral",
+      "Karl Müller": "neutral",
+      "Anita Schmid": "friendly",
+      "Thomas Bauer": "neutral",
+      "Clara Weiss": "neutral"
+    },
+    "appearance": "Gut gekleidet, mit einem scharfen Blick und einem selbstbewussten Auftreten.",
+    "psychological_profile": "Ambitioniert, intelligent, manipulierend, skrupellos.",
+    "possible_motive": "Wollte Dr. Fischers Position und Anerkennung für ihre Arbeit."
+  },
+  {
+    "name": "Sophie Berger",
+    "description": "Die engagierte Personalmanagerin des Unternehmens.",
+    "image": "sophie.jpg",
+    "x": 3,
+    "y": 4,
+    "icon": "S",
+    "backstory": "Sophie ist bekannt für ihr Einfühlungsvermögen und ihre Fähigkeit, Konflikte zu lösen.",
+    "relationships": {
+      "Lena Fischer": "friendly",
+      "Maximilian Weber": "neutral",
+      "Karl Müller": "friendly",
+      "Anita Schmid": "neutral",
+      "Thomas Bauer": "neutral",
+      "Clara Weiss": "neutral"
+    },
+    "appearance": "Lächelt oft, trägt eine Brille und hat ein professionelles Auftreten.",
+    "psychological_profile": "Empathisch, freundlich, konfliktlösend.",
+    "possible_motive": "Keine, da sie eine gute Beziehung zu Dr. Fischer hatte."
+  },
+  {
+    "name": "Karl Müller",
+    "description": "Der erfahrene und ruhige Sicherheitschef des Unternehmens.",
+    "image": "karl.png",
+    "x": 9,
+    "y": 2,
+    "icon": "M",
+    "backstory": "Karl hat eine lange Karriere im Sicherheitsbereich hinter sich und ist bekannt für seine Loyalität.",
+    "relationships": {
+      "Lena Fischer": "friendly",
+      "Maximilian Weber": "neutral",
+      "Sophie Berger": "friendly",
+      "Anita Schmid": "neutral",
+      "Thomas Bauer": "neutral",
+      "Clara Weiss": "neutral"
+    },
+    "appearance": "Kräftig gebaut, trägt immer eine Uniform und hat einen wachsamen Blick.",
+    "psychological_profile": "Loyal, aufmerksam, ruhig.",
+    "possible_motive": "Keine, er respektierte Dr. Fischer sehr."
+  },
+  {
+    "name": "Anita Schmid",
+    "description": "Die kreative und innovative Marketingchefin des Unternehmens.",
+    "image": "anita.jpg",
+    "x": 8,
+    "y": 8,
+    "icon": "A",
+    "backstory": "Anita ist seit drei Jahren im Unternehmen und bekannt für ihre kreativen Marketingstrategien.",
+    "relationships": {
+      "Lena Fischer": "friendly",
+      "Maximilian Weber": "friendly",
+      "Sophie Berger": "neutral",
+      "Karl Müller": "neutral",
+      "Thomas Bauer": "neutral",
+      "Clara Weiss": "neutral"
+    },
+    "appearance": "Stilvoll gekleidet, immer mit einem Lächeln und kreativen Ideen.",
+    "psychological_profile": "Kreativ, freundlich, energisch.",
+    "possible_motive": "Keine, sie war mit Dr. Fischer befreundet."
+  },
+  {
+    "name": "Thomas Bauer",
+    "description": "Der introvertierte und brillante Chefentwickler.",
+    "image": "thomas.jpg",
+    "x": 7,
+    "y": 5,
+    "icon": "B",
+    "backstory": "Thomas ist ein Genie in seinem Bereich, aber sozial eher zurückgezogen.",
+    "relationships": {
+      "Lena Fischer": "neutral",
+      "Maximilian Weber": "neutral",
+      "Sophie Berger": "neutral",
+      "Karl Müller": "neutral",
+      "Anita Schmid": "neutral",
+      "Clara Weiss": "neutral"
+    },
+    "appearance": "Trägt meist ein Hoodie, ist oft in Gedanken versunken.",
+    "psychological_profile": "Intelligent, introvertiert, fokussiert.",
+    "possible_motive": "Keine, er war hauptsächlich mit seiner Arbeit beschäftigt."
+  },
+  {
+    "name": "Clara Weiss",
+    "description": "Die neue Praktikantin, die gerade erst angefangen hat.",
+    "image": "clara.jpg",
+    "x": 5,
+    "y": 5,
+    "icon": "C",
+    "backstory": "Clara ist motiviert und neugierig, hat aber noch keine tiefen Verbindungen im Unternehmen.",
+    "relationships": {
+      "Lena Fischer": "neutral",
+      "Maximilian Weber": "neutral",
+      "Sophie Berger": "neutral",
+      "Karl Müller": "neutral",
+      "Anita Schmid": "neutral",
+      "Thomas Bauer": "neutral"
+    },
+    "appearance": "Jung, trägt meist legere Kleidung, wirkt ein wenig schüchtern.",
+    "psychological_profile": "Motiviert, lernbegierig, ein wenig schüchtern.",
+    "possible_motive": "Keine, sie hatte keine tiefere Beziehung zu Dr. Fischer."
+  }
+]

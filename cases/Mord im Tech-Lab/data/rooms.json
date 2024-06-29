@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Eingangshalle",
+    "x": 0,
+    "y": 0,
+    "width": 3,
+    "height": 3,
+    "color": "lightgrey"
+  },
+  {
+    "name": "Konferenzraum",
+    "x": 3,
+    "y": 0,
+    "width": 3,
+    "height": 3,
+    "color": "blue"
+  },
+  {
+    "name": "Entwicklerbüro",
+    "x": 6,
+    "y": 0,
+    "width": 3,
+    "height": 3,
+    "color": "green"
+  },
+  {
+    "name": "Serverraum",
+    "x": 0,
+    "y": 3,
+    "width": 3,
+    "height": 3,
+    "color": "red"
+  },
+  {
+    "name": "Personalbüro",
+    "x": 3,
+    "y": 3,
+    "width": 3,
+    "height": 3,
+    "color": "yellow"
+  },
+  {
+    "name": "Marketingabteilung",
+    "x": 6,
+    "y": 3,
+    "width": 3,
+    "height": 3,
+    "color": "orange"
+  },
+  {
+    "name": "Pausenraum",
+    "x": 0,
+    "y": 6,
+    "width": 3,
+    "height": 3,
+    "color": "purple"
+  },
+  {
+    "name": "Archiv",
+    "x": 3,
+    "y": 6,
+    "width": 3,
+    "height": 3,
+    "color": "brown"
+  },
+  {
+    "name": "Geschäftsführungsbüro",
+    "x": 6,
+    "y": 6,
+    "width": 3,
+    "height": 3,
+    "color": "darkgrey"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Claudia Fuchs",
+    "description": "Eine ehrgeizige Kuratorin des Museums.",
+    "image": "claudia_fuchs.jpg",
+    "x": 5,
+    "y": 4,
+    "icon": "F",
+    "backstory": "Claudia hatte in letzter Zeit öfter Streit mit Dr. Markus Stein. Sie warf ihm vor, die Bedeutung ihrer eigenen Funde herunterzuspielen.",
+    "relationships": {
+      "Dr. Markus Stein": "hostile",
+      "Helmut Wagner": "neutral",
+      "Anna Müller": "neutral",
+      "David Becker": "friendly",
+      "Elena Richter": "friendly",
+      "Tim Neumann": "neutral"
+    },
+    "appearance": "Groß, schlank, braune Haare, oft elegant gekleidet.",
+    "psychological_profile": "Claudia ist sehr ambitioniert und lässt sich nicht leicht einschüchtern. Sie hat einen starken Willen und scheut keine Konfrontationen.",
+    "possible_motive": "Claudia wollte möglicherweise ihren Ruf retten und den vorzeitigen Ruhestand von Dr. Stein beschleunigen."
+  },
+  {
+    "name": "Helmut Wagner",
+    "description": "Der langjährige Sicherheitsbeauftragte des Museums.",
+    "image": "helmut_wagner.jpg",
+    "x": 3,
+    "y": 9,
+    "icon": "W",
+    "backstory": "Helmut war stets besorgt um die Sicherheit im Museum. Er kannte Dr. Stein gut und sie hatten ein professionelles, jedoch distanziertes Verhältnis.",
+    "relationships": {
+      "Dr. Markus Stein": "neutral",
+      "Claudia Fuchs": "neutral",
+      "Anna Müller": "friendly",
+      "David Becker": "neutral",
+      "Elena Richter": "neutral",
+      "Tim Neumann": "neutral"
+    },
+    "appearance": "Mittelgroß, kräftig, kurze graue Haare, trägt meist eine Uniform.",
+    "psychological_profile": "Helmut ist verlässlich und nimmt seinen Job sehr ernst. Er ist eher verschlossen und redet wenig über sein Privatleben.",
+    "possible_motive": "Gerüchte besagen, dass Dr. Stein die Sicherheitsvorkehrungen oft missachtet hat, was Helmut frustriert haben könnte."
+  },
+  {
+    "name": "Anna Müller",
+    "description": "Eine junge Geschichtsstudentin und Praktikantin im Museum.",
+    "image": "anna_mueller.jpg",
+    "x": 8,
+    "y": 3,
+    "icon": "M",
+    "backstory": "Anna ist begeisterte Geschichtsstudentin und seit kurzem Praktikantin im Museum. Sie verehrte Dr. Stein und wollte viel von ihm lernen.",
+    "relationships": {
+      "Dr. Markus Stein": "friendly",
+      "Claudia Fuchs": "neutral",
+      "Helmut Wagner": "friendly",
+      "David Becker": "neutral",
+      "Elena Richter": "neutral",
+      "Tim Neumann": "friendly"
+    },
+    "appearance": "Schlank, dunkelblonde Haare, oft leger gekleidet.",
+    "psychological_profile": "Anna ist freundlich und aufgeschlossen, aber auch etwas schüchtern. Sie ist wissbegierig und horcht aufmerksam zu.",
+    "possible_motive": "Dr. Stein war ihr Mentor, aber es gab Gerüchte, dass er ihre Arbeit nicht wirklich respektierte."
+  },
+  {
+    "name": "David Becker",
+    "description": "Ein exzentrischer Kunstliebhaber und Sponsor des Museums.",
+    "image": "david_becker.jpg",
+    "x": 5,
+    "y": 5,
+    "icon": "B",
+    "backstory": "David ist ein wohlhabender Kunstsammler, dessen Spenden das Museum stark unterstützt haben. Er schätzt die Arbeit von Dr. Stein sehr.",
+    "relationships": {
+      "Dr. Markus Stein": "friendly",
+      "Claudia Fuchs": "friendly",
+      "Helmut Wagner": "neutral",
+      "Anna Müller": "neutral",
+      "Elena Richter": "neutral",
+      "Tim Neumann": "neutral"
+    },
+    "appearance": "Mittleres Alter, gepflegtes Aussehen, trägt oft teure Anzüge.",
+    "psychological_profile": "David ist leidenschaftlich in seinem Kunstinteresse, aber auch sehr eigensinnig und manchmal schwer einzuschätzen.",
+    "possible_motive": "Es kursieren Gerüchte, dass Dr. Stein ein paar von ihm gewünschte Ausstellungen abgelehnt hat."
+  },
+  {
+    "name": "Elena Richter",
+    "description": "Die freundliche Empfangsdame des Museums.",
+    "image": "elena_richter.jpg",
+    "x": 8,
+    "y": 7,
+    "icon": "R",
+    "backstory": "Elena arbeitet erst seit kurzem im Museum und hat sich schnell mit den meisten Angestellten angefreundet. Sie hatte jedoch wenig Kontakt zu Dr. Stein.",
+    "relationships": {
+      "Dr. Markus Stein": "neutral",
+      "Claudia Fuchs": "friendly",
+      "Helmut Wagner": "neutral",
+      "Anna Müller": "neutral",
+      "David Becker": "neutral",
+      "Tim Neumann": "friendly"
+    },
+    "appearance": "Klein, schulterlanges dunkles Haar, trägt oft elegante Kleidung.",
+    "psychological_profile": "Elena ist sehr sozial und aufmerksam, sie hat ein freundliches Auftreten und ist bei Kollegen beliebt.",
+    "possible_motive": "Elena könnte Dr. Stein missverstanden oder sich bedroht gefühlt haben, da er sich oft eigenartig gegenüber neuen Mitarbeitern verhielt."
+  },
+  {
+    "name": "Tim Neumann",
+    "description": "Ein freiberuflicher Fotograf, der regelmäßig für das Museum arbeitet.",
+    "image": "tim_neumann.jpg",
+    "x": 4,
+    "y": 6,
+    "icon": "N",
+    "backstory": "Tim ist dafür bekannt, großartige Aufnahmen von Ausstellungen zu machen. Er kennt Dr. Stein durch mehrere Projekte und hatte keinen offenen Konflikt mit ihm.",
+    "relationships": {
+      "Dr. Markus Stein": "neutral",
+      "Claudia Fuchs": "neutral",
+      "Helmut Wagner": "neutral",
+      "Anna Müller": "friendly",
+      "David Becker": "neutral",
+      "Elena Richter": "friendly"
+    },
+    "appearance": "Groß, schlank, dunkle Haare, trägt oft bequeme Freizeitkleidung.",
+    "psychological_profile": "Tim ist kreativ und hat einen künstlerischen Blick für Details. Er ist etwas introvertiert, aber dennoch freundlich und hilfsbereit.",
+    "possible_motive": "Es gibt keine offensichtlichen Gründe, aber vielleicht weiß Tim mehr über den Fall, als er zugibt."
+  }
+]

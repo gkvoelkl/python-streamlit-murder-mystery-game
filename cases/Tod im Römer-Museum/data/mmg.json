@@ -1,0 +1,12 @@
+{
+  "title": "Tod im Römer-Museum",
+  "description": "Ein grausamer Mord erschüttert das historische Römer-Museum in Regensburg. Schlüpfen Sie in die Rolle des Detektivs und entlarven Sie den Mörder!",
+  "story": "Im Römer-Museum in Regensburg ereignet sich ein schrecklicher Mord. Der berühmte Archäologe Dr. Markus Stein, bekannt für seine sensationellen Funde aus der Römerzeit, wird tot aufgefunden. Die Tat geschah um 19:34 Uhr im rekonstruierten Römischen Atrium. Ihre Aufgabe ist es, als Detektiv Beweise zu sammeln und den heimtückischen Mörder zu überführen.",
+  "player": {
+    "position": [0, 0]
+  },
+  "victim": "Dr. Markus Stein",
+  "time": "19:34",
+  "room": "Römisches Atrium",
+  "killer": "Claudia Fuchs"
+}

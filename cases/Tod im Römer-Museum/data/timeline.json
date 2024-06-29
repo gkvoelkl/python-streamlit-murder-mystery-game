@@ -1,0 +1,182 @@
+{
+  "Claudia Fuchs": [
+      {
+        "time": "17:34-18:04",
+        "location": "Verwaltungsbüro",
+        "activity": "Arbeit an Kuratorenberichten",
+        "reason": "Vorbereitung für die kommende Ausstellung",
+        "companions": []
+      },
+      {
+        "time": "18:04-18:34",
+        "location": "Konferenzraum",
+        "activity": "Besprechung mit David Becker",
+        "reason": "Diskussion über potenzielle Sponsoring-Möglichkeiten",
+        "companions": ["David Becker"]
+      },
+      {
+        "time": "18:34-19:04",
+        "location": "Römisches Atrium",
+        "activity": "Überprüfung der Exponate",
+        "reason": "Sicherstellen, dass alle Exponate korrekt platziert sind",
+        "companions": []
+      },
+      {
+        "time": "19:04-19:34",
+        "location": "Lagerraum",
+        "activity": "Suche nach fehlenden Dokumenten",
+        "reason": "Verlorene Dokumente für die Ausstellung suchen",
+        "companions": ["Helmut Wagner"]
+      }
+    ],
+  "Helmut Wagner":[
+      {
+        "time": "17:34-18:04",
+        "location": "Eingangshalle",
+        "activity": "Kontrolle der Sicherheitssysteme",
+        "reason": "Routine-Sicherheitsüberprüfung",
+        "companions": []
+      },
+      {
+        "time": "18:04-18:34",
+        "location": "Restaurationslabor",
+        "activity": "Inspektion der Restaurationsfortschritte",
+        "reason": "Sicherstellen, dass keine Sicherheitsprobleme vorliegen",
+        "companions": ["Elena Richter"]
+      },
+      {
+        "time": "18:34-19:04",
+        "location": "Cafe",
+        "activity": "Pause",
+        "reason": "Kaffeepause machen",
+        "companions": ["Anna Müller"]
+      },
+      {
+        "time": "19:04-19:34",
+        "location": "Lagerraum",
+        "activity": "Suche nach fehlenden Dokumenten",
+        "reason": "Claudia Fuchs unterstützen",
+        "companions": ["Claudia Fuchs"]
+      }
+    ],
+  "Anna Müller": [
+      {
+        "time": "17:34-18:04",
+        "location": "Bibliothek",
+        "activity": "Recherche für Studienarbeit",
+        "reason": "Arbeit an einem Uni-Projekt",
+        "companions": ["Tim Neumann"]
+      },
+      {
+        "time": "18:04-18:34",
+        "location": "Cafe",
+        "activity": "Kaffee trinken",
+        "reason": "Kurze Pause vom Forschen",
+        "companions": ["Tim Neumann"]
+      },
+      {
+        "time": "18:34-19:04",
+        "location": "Cafe",
+        "activity": "Kaffeepause",
+        "reason": "Länger geblieben durch ein spannendes Gespräch",
+        "companions": ["Helmut Wagner"]
+      },
+      {
+        "time": "19:04-19:34",
+        "location": "Restaurationslabor",
+        "activity": "Restaurationsarbeiten beobachten",
+        "reason": "Interessiert sich für die Techniken",
+        "companions": ["Elena Richter"]
+      }
+    ],
+  "David Becker": [
+      {
+        "time": "17:34-18:04",
+        "location": "Ausstellungshalle",
+        "activity": "Besichtigung der neuen Ausstellungen",
+        "reason": "Überlegen von möglichen Sponsoring-Chancen",
+        "companions": []
+      },
+      {
+        "time": "18:04-18:34",
+        "location": "Konferenzraum",
+        "activity": "Besprechung mit Claudia Fuchs",
+        "reason": "Diskutieren über potenzielle Sponsoring-Möglichkeiten",
+        "companions": ["Claudia Fuchs"]
+      },
+      {
+        "time": "18:34-19:04",
+        "location": "Eingangshalle",
+        "activity": "Empfang von Gästen",
+        "reason": "Begrüßung einiger Geschäftspartner vor dem Event",
+        "companions": []
+      },
+      {
+        "time": "19:04-19:34",
+        "location": "Verwaltungsbüro",
+        "activity": "Überprüfung der letzten Finanzauszüge",
+        "reason": "Sicherstellen, dass alles für neue Projekte vorbereitet ist",
+        "companions": []
+      }
+    ],
+  "Elena Richter": [
+      {
+        "time": "17:34-18:04",
+        "location": "Eingangshalle",
+        "activity": "Besucher empfangen",
+        "reason": "Betreuung der eintreffenden Gäste",
+        "companions": []
+      },
+      {
+        "time": "18:04-18:34",
+        "location": "Restaurationslabor",
+        "activity": "Begleitung von Helmut Wagner",
+        "reason": "Helmut benötigt Unterstützung bei der Sicherheitsüberprüfung",
+        "companions": ["Helmut Wagner"]
+      },
+      {
+        "time": "18:34-19:04",
+        "location": "Restaurationslabor",
+        "activity": "Inventur der Restaurationsmaterialien",
+        "reason": "Vorbereitung für kommende Restaurationsarbeiten",
+        "companions": []
+      },
+      {
+        "time": "19:04-19:34",
+        "location": "Restaurationslabor",
+        "activity": "Plaudern und Restaurationsarbeiten besprechen",
+        "reason": "Interesse an den Restaurationsprozessen",
+        "companions": ["Anna Müller"]
+      }
+    ],
+  "Tim Neumann": [
+      {
+        "time": "17:34-18:04",
+        "location": "Bibliothek",
+        "activity": "Fotos von archäologischen Büchern machen",
+        "reason": "Recherche für eigenes Projekt",
+        "companions": ["Anna Müller"]
+      },
+      {
+        "time": "18:04-18:34",
+        "location": "Cafe",
+        "activity": "Kaffee trinken",
+        "reason": "Kurze Pause zwischen den Aufnahmen",
+        "companions": ["Anna Müller"]
+      },
+      {
+        "time": "18:34-19:04",
+        "location": "Konferenzraum",
+        "activity": "Vorbereitung der Fotoausrüstung",
+        "reason": "Fotodokumentation eines anstehenden Events",
+        "companions": []
+      },
+      {
+        "time": "19:04-19:34",
+        "location": "Bibliothek",
+        "activity": "Weitere Fotos der Bücher machen",
+        "reason": "Ergänzung und Vervollständigung seines Projekts",
+        "companions": []
+      }
+    ]
+  }

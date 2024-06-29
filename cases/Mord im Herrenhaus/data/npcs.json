@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Emily White",
+        "description": "Eine ehrgeizige Anwältin.",
+        "image": "emily.jpg",
+        "x": 2,
+        "y": 3,
+        "icon": "E",
+        "backstory": "Emily war Dr. Blackwoods Kollegin und hatte berufliche Differenzen mit ihm.",
+        "relationships": {
+            "Detective": "neutral",
+            "Oliver": "neutral",
+            "Sophia": "freundlich",
+            "David": "freindselig",
+            "Clara": "neutral"
+        },
+        "appearance": "Eine attraktive Frau in den Dreißigern mit scharfen Gesichtszügen und stilvoller Kleidung.",
+        "psychological_profile": "Ambitioniert und entschlossen, lässt sich selten von ihrem Ziel abbringen.",
+        "possible_motive": "Berufliche Differenzen und Konkurrenzdenken."
+    },
+    {
+        "name": "Oliver Smith",
+        "description": "Ein ehemaliger Patient von Dr. Blackwood.",
+        "image": "oliver.jpg",
+        "x": 5,
+        "y": 7,
+        "icon": "O",
+        "backstory": "Oliver war ein Patient von Dr. Blackwood und hegte Groll gegen ihn wegen einer misslungenen Behandlung.",
+        "relationships": {
+            "Detective": "freindselig",
+            "Emily": "neutral",
+            "Sophia": "freindselig",
+            "David": "freundlich",
+            "Clara": "neutral"
+        },
+        "appearance": "Ein hagerer Mann in den Vierzigern mit einem besorgten Gesichtsausdruck und nervösem Verhalten.",
+        "psychological_profile": "Verbittert und misstrauisch, hat Probleme, anderen zu vertrauen.",
+        "possible_motive": "Groll wegen einer misslungenen Behandlung."
+    },
+    {
+        "name": "Sophia Blackwood",
+        "description": "Die Witwe des Opfers.",
+        "image": "sophia.jpg",
+        "x": 8,
+        "y": 2,
+        "icon": "S",
+        "backstory": "Sophia ist Dr. Blackwoods Witwe und hat eine enge Verbindung zu Clara.",
+        "relationships": {
+            "Detective": "neutral",
+            "Emily": "freundlich",
+            "Oliver": "freindselig",
+            "David": "neutral",
+            "Clara": "freundlich"
+        },
+        "appearance": "Eine elegante Frau in den Fünfzigern mit traurigen Augen und einem ernsten Ausdruck.",
+        "psychological_profile": "Ruhig und nachdenklich, jedoch tief verletzt durch den Verlust ihres Mannes.",
+        "possible_motive": "Eifersucht und Rache wegen der Affären ihres Mannes."
+    },
+    {
+        "name": "David Johnson",
+        "description": "Ein undurchsichtiger Geschäftsmann.",
+        "image": "david.jpg",
+        "x": 1,
+        "y": 6,
+        "icon": "D",
+        "backstory": "David ist ein Geschäftspartner von Dr. Blackwood und hat ein Motiv, ihn zu töten.",
+        "relationships": {
+            "Detective": "neutral",
+            "Emily": "freindselig",
+            "Oliver": "freundlich",
+            "Sophia": "neutral",
+            "Clara": "neutral"
+        },
+        "appearance": "Ein kräftiger Mann in den Vierzigern mit einem selbstbewussten Auftreten und teurer Kleidung.",
+        "psychological_profile": "Machtbewusst und skrupellos, immer auf der Suche nach einem Vorteil.",
+        "possible_motive": "Geschäftliche Differenzen und Machtstreben."
+    },
+    {
+        "name": "Clara Blackwood",
+        "description": "Die Tochter des Opfers.",
+        "image": "clara.jpg",
+        "x": 4,
+        "y": 4,
+        "icon": "C",
+        "backstory": "Clara ist die Tochter des Opfers und hat ein schwieriges Verhältnis zu Emily.",
+        "relationships": {
+            "Detective": "freundlich",
+            "Emily": "neutral",
+            "Oliver": "neutral",
+            "Sophia": "freundlich",
+            "David": "neutral"
+        },
+        "appearance": "Eine junge Frau in den Zwanzigern mit langen blonden Haaren und einem unschuldigen Gesicht.",
+        "psychological_profile": "Verwirrt und emotional, fühlt sich verloren ohne die Zuneigung ihres Vaters.",
+        "possible_motive": "Angst vor dem Verlust der finanziellen Unterstützung und Liebe."
+    }
+]

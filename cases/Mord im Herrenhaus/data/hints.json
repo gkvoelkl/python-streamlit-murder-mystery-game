@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Ein Blutfleck führt vom Tatort zum Büro.",
+        "x": 6,
+        "y": 3,
+        "misleading": false
+    },
+    {
+        "text": "Ein zerbrochener Glas zeigt, dass es einen Kampf im Wohnzimmer gab.",
+        "x": 3,
+        "y": 3,
+        "misleading": false
+    },
+    {
+        "text": "Ein Schlüssel wurde in der Nähe des Kellers gefunden.",
+        "x": 6,
+        "y": 6,
+        "misleading": true
+    },
+    {
+        "text": "Ein Tagebucheintrag deutet darauf hin, dass Dr. Blackwood finanzielle Probleme hatte.",
+        "x": 3,
+        "y": 0,
+        "misleading": false
+    },
+    {
+        "text": "Ein anonymer Brief warnt Dr. Blackwood vor einem bevorstehenden Verrat.",
+        "x": 3,
+        "y": 6,
+        "misleading": true
+    },
+    {
+        "text": "Eine Quittung von einem teuren Restaurant wurde im Schlafzimmer gefunden.",
+        "x": 0,
+        "y": 6,
+        "misleading": true
+    },
+    {
+        "text": "Ein Telefonanruf wurde am Abend des Mordes von der Küche aus getätigt.",
+        "x": 0,
+        "y": 3,
+        "misleading": false
+    },
+    {
+        "text": "Eine zerknitterte Notiz in der Bibliothek deutet auf eine geheime Affäre hin.",
+        "x": 3,
+        "y": 0,
+        "misleading": true
+    },
+    {
+        "text": "Ein Schuhabdruck im Garten passt zu Davids Schuhgröße.",
+        "x": 3,
+        "y": 6,
+        "misleading": false
+    },
+    {
+        "text": "Ein Messer fehlt in der Küche.",
+        "x": 0,
+        "y": 3,
+        "misleading": false
+    }
+]
