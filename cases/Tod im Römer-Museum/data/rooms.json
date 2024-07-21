@@ -5,7 +5,9 @@
     "y": 0,
     "width": 3,
     "height": 3,
-    "color": "#FFDDC1"
+    "color": "#FFDDC1",
+    "description": "Die Eingangshalle des Museums, ein weitläufiger Raum mit Informationsschaltern und Garderobe.",
+    "image": "eingangshalle.jpg"
   },
   {
     "name": "Römisches Atrium",
@@ -13,7 +15,9 @@
     "y": 0,
     "width": 3,
     "height": 3,
-    "color": "#FFB6C1"
+    "color": "#FFB6C1",
+    "description": "Das Römische Atrium ist eine originalgetreue Nachbildung eines römischen Innenhofes, reich verziert und mit historischen Artefakten ausgestattet.",
+    "image": "roemisches_atrium.jpg"
   },
   {
     "name": "Ausstellungshalle",
@@ -21,7 +25,9 @@
     "y": 0,
     "width": 3,
     "height": 3,
-    "color": "#FFA07A"
+    "color": "#FFA07A",
+    "description": "In der Ausstellungshalle werden wechselnde Ausstellungen zu verschiedenen Themen der Römerzeit präsentiert.",
+    "image": "ausstellungshalle.jpg"
   },
   {
     "name": "Bibliothek",
@@ -29,7 +35,9 @@
     "y": 3,
     "width": 3,
     "height": 3,
-    "color": "#E6E6FA"
+    "color": "#E6E6FA",
+    "description": "Die Bibliothek enthält eine umfangreiche Sammlung von Büchern und Dokumenten zur römischen Geschichte und Archäologie.",
+    "image": "bibliothek.jpg"
   },
   {
     "name": "Konferenzraum",
@@ -37,7 +45,9 @@
     "y": 3,
     "width": 3,
     "height": 3,
-    "color": "#B0E0E6"
+    "color": "#B0E0E6",
+    "description": "Der Konferenzraum wird für Vorträge, Seminare und Besprechungen genutzt und ist mit moderner Technik ausgestattet.",
+    "image": "konferenzraum.jpg"
   },
   {
     "name": "Verwaltungsbüro",
@@ -45,7 +55,9 @@
     "y": 3,
     "width": 3,
     "height": 3,
-    "color": "#98FB98"
+    "color": "#98FB98",
+    "description": "Das Verwaltungsbüro ist das Zentrum der administrativen Tätigkeiten des Museums.",
+    "image": "verwaltungsbuero.jpg"
   },
   {
     "name": "Lagerraum",
@@ -53,7 +65,9 @@
     "y": 6,
     "width": 3,
     "height": 3,
-    "color": "#FFD700"
+    "color": "#FFD700",
+    "description": "Im Lagerraum werden nicht ausgestellte Artefakte und Materialien sicher aufbewahrt.",
+    "image": "lagerraum.jpg"
   },
   {
     "name": "Restaurationslabor",
@@ -61,7 +75,9 @@
     "y": 6,
     "width": 3,
     "height": 3,
-    "color": "#87CEEB"
+    "color": "#87CEEB",
+    "description": "Das Restaurationslabor ist mit speziellen Geräten ausgestattet, um antike Artefakte zu untersuchen und zu restaurieren.",
+    "image": "restaurationslabor.jpg"
   },
   {
     "name": "Cafe",
@@ -69,6 +85,8 @@
     "y": 6,
     "width": 3,
     "height": 3,
-    "color": "#D3D3D3"
+    "color": "#D3D3D3",
+    "description": "Das Cafe bietet Besuchern eine entspannte Atmosphäre, um sich bei Snacks und Getränken auszuruhen.",
+    "image": "cafe.jpg"
   }
 ]

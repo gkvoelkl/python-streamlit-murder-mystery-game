@@ -10,8 +10,8 @@
         "relationships": {
             "Detective": "neutral",
             "Oliver": "neutral",
-            "Sophia": "freundlich",
-            "David": "freindselig",
+            "Sophia": "friendly",
+            "David": "hostile",
             "Clara": "neutral"
         },
         "appearance": "Eine attraktive Frau in den Dreißigern mit scharfen Gesichtszügen und stilvoller Kleidung.",
@@ -27,10 +27,10 @@
         "icon": "O",
         "backstory": "Oliver war ein Patient von Dr. Blackwood und hegte Groll gegen ihn wegen einer misslungenen Behandlung.",
         "relationships": {
-            "Detective": "freindselig",
+            "Detective": "hostile",
             "Emily": "neutral",
-            "Sophia": "freindselig",
-            "David": "freundlich",
+            "Sophia": "hostile",
+            "David": "friendly",
             "Clara": "neutral"
         },
         "appearance": "Ein hagerer Mann in den Vierzigern mit einem besorgten Gesichtsausdruck und nervösem Verhalten.",
@@ -47,10 +47,10 @@
         "backstory": "Sophia ist Dr. Blackwoods Witwe und hat eine enge Verbindung zu Clara.",
         "relationships": {
             "Detective": "neutral",
-            "Emily": "freundlich",
-            "Oliver": "freindselig",
+            "Emily": "friendly",
+            "Oliver": "hostile",
             "David": "neutral",
-            "Clara": "freundlich"
+            "Clara": "friendly"
         },
         "appearance": "Eine elegante Frau in den Fünfzigern mit traurigen Augen und einem ernsten Ausdruck.",
         "psychological_profile": "Ruhig und nachdenklich, jedoch tief verletzt durch den Verlust ihres Mannes.",
@@ -66,8 +66,8 @@
         "backstory": "David ist ein Geschäftspartner von Dr. Blackwood und hat ein Motiv, ihn zu töten.",
         "relationships": {
             "Detective": "neutral",
-            "Emily": "freindselig",
-            "Oliver": "freundlich",
+            "Emily": "hostile",
+            "Oliver": "friendly",
             "Sophia": "neutral",
             "Clara": "neutral"
         },
@@ -84,10 +84,10 @@
         "icon": "C",
         "backstory": "Clara ist die Tochter des Opfers und hat ein schwieriges Verhältnis zu Emily.",
         "relationships": {
-            "Detective": "freundlich",
+            "Detective": "friendly",
             "Emily": "neutral",
             "Oliver": "neutral",
-            "Sophia": "freundlich",
+            "Sophia": "friendly",
             "David": "neutral"
         },
         "appearance": "Eine junge Frau in den Zwanzigern mit langen blonden Haaren und einem unschuldigen Gesicht.",

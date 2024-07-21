@@ -1,11 +1,92 @@
 [
-    {"name": "Foyer", "x": 0, "y": 0, "width": 3, "height": 3, "color": "lightgray"},
-    {"name": "Bibliothek", "x": 3, "y": 0, "width": 3, "height": 3, "color": "lightblue"},
-    {"name": "Esszimmer", "x": 6, "y": 0, "width": 3, "height": 3, "color": "lightgreen"},
-    {"name": "Küche", "x": 0, "y": 3, "width": 3, "height": 3, "color": "lightyellow"},
-    {"name": "Wohnzimmer", "x": 3, "y": 3, "width": 3, "height": 3, "color": "lightcoral"},
-    {"name": "Büro", "x": 6, "y": 3, "width": 3, "height": 3, "color": "lightcyan"},
-    {"name": "Schlafzimmer", "x": 0, "y": 6, "width": 3, "height": 3, "color": "lightpink"},
-    {"name": "Garten", "x": 3, "y": 6, "width": 3, "height": 3, "color": "lightgoldenrodyellow"},
-    {"name": "Keller", "x": 6, "y": 6, "width": 3, "height": 3, "color": "lightsteelblue"}
+    {
+        "name": "Foyer",
+        "x": 0,
+        "y": 0,
+        "width": 3,
+        "height": 3,
+        "color": "lightgray",
+        "description": "Ein großes, einladendes Foyer mit Marmorboden, hohen Decken und einem majestätischen Kronleuchter. An den Wänden hängen alte Gemälde der Familie Blackwood.",
+        "image": "foyer.jpg"
+    },
+    {
+        "name": "Bibliothek",
+        "x": 3,
+        "y": 0,
+        "width": 3,
+        "height": 3,
+        "color": "lightblue",
+        "description": "Eine ruhige Bibliothek mit hohen Bücherregalen, vollgestopft mit alten Büchern. In der Mitte steht ein massiver Eichentisch, auf dem noch geöffnete Bücher und ein Glas Whiskey stehen.",
+        "image": "bibliothek.jpg"
+    },
+    {
+        "name": "Esszimmer",
+        "x": 6,
+        "y": 0,
+        "width": 3,
+        "height": 3,
+        "color": "lightgreen",
+        "description": "Ein elegantes Esszimmer mit einem langen, polierten Esstisch und Platz für zwölf Personen. Der Raum ist mit feinem Porzellan und Silberbesteck gedeckt, und Kerzenleuchter sorgen für gedämpftes Licht.",
+        "image": "esszimmer.jpg"
+    },
+    {
+        "name": "Küche",
+        "x": 0,
+        "y": 3,
+        "width": 3,
+        "height": 3,
+        "color": "lightyellow",
+        "description": "Eine große, moderne Küche mit Edelstahlgeräten und einer zentralen Insel zum Kochen. An den Wänden hängen Kupfertöpfe und Kochutensilien, die auf regen Gebrauch hinweisen.",
+        "image": "küche.jpg"
+    },
+    {
+        "name": "Wohnzimmer",
+        "x": 3,
+        "y": 3,
+        "width": 3,
+        "height": 3,
+        "color": "lightcoral",
+        "description": "Ein gemütliches Wohnzimmer mit bequemen Sofas, einem Kamin und großen Fenstern, die einen Blick auf den Garten bieten. Über dem Kamin hängt ein großes Familienporträt.",
+        "image": "wohnzimmer.jpg"
+    },
+    {
+        "name": "Büro",
+        "x": 6,
+        "y": 3,
+        "width": 3,
+        "height": 3,
+        "color": "lightcyan",
+        "description": "Ein aufgeräumtes Büro mit einem großen Schreibtisch aus dunklem Holz, einem Ledersessel und Regalen voller medizinischer Fachbücher und Auszeichnungen.",
+        "image": "büro.jpg"
+    },
+    {
+        "name": "Schlafzimmer",
+        "x": 0,
+        "y": 6,
+        "width": 3,
+        "height": 3,
+        "color": "lightpink",
+        "description": "Ein geräumiges Schlafzimmer mit einem großen Himmelbett, einem begehbaren Kleiderschrank und einem Balkon, der einen Blick auf den Garten bietet. Der Raum ist in warmen, beruhigenden Farben gehalten.",
+        "image": "schlafzimmer.jpg"
+    },
+    {
+        "name": "Garten",
+        "x": 3,
+        "y": 6,
+        "width": 3,
+        "height": 3,
+        "color": "lightgoldenrodyellow",
+        "description": "Ein gepflegter Garten mit blühenden Blumenbeeten, einem kleinen Teich und mehreren Sitzgelegenheiten. Ein verwunschener Pfad führt zu einem versteckten Pavillon.",
+        "image": "garten.jpg"
+    },
+    {
+        "name": "Keller",
+        "x": 6,
+        "y": 6,
+        "width": 3,
+        "height": 3,
+        "color": "lightsteelblue",
+        "description": "Ein dunkler, feuchter Keller mit alten Weinfässern, Lagerregalen und einem schweren Eichentisch in der Mitte. Der Raum wirkt verlassen und geheimnisvoll.",
+        "image": "keller.jpg"
+    }
 ]

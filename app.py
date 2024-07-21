@@ -1,39 +1,39 @@
-import json
 import random
-import stat
 from typing import List
 
-import streamlit
+import streamlit as st
 from openai import OpenAI
 
 from common import *
 from generate import generate_case
+from prompt import FIRST_TALK
 
-LLM_MODEL = "gpt-3.5-turbo"
-LLM_IMAGE = 'dall-e-3'
+st.session_state.ollama_path = 'http://localhost:11434/v1'
+st.session_state.image_model = 'dall-e-3'
+
 BASE_DIRECTORY_CASES = 'cases/'
+
+CELL_SIZE = 40
+GRID_SIZE = 9
+
+st.set_page_config(layout="wide")
 
 
 def init(case_name: str) -> None:
     if "mmg" not in st.session_state:
-        with open(BASE_DIRECTORY_CASES + '/' + case_name + '/data/mmg.json') as mmg_file:
-            st.session_state.mmg = json.load(mmg_file)
+        st.session_state.mmg = read_json(BASE_DIRECTORY_CASES + '/' + case_name + '/data/mmg.json')
 
     if "npcs" not in st.session_state:
-        with open(BASE_DIRECTORY_CASES + '/' + case_name + '/data/npcs.json') as npcs_file:
-            st.session_state.npcs = json.load(npcs_file)
+        st.session_state.npcs = read_json(BASE_DIRECTORY_CASES + '/' + case_name + '/data/npcs.json')
 
     if "rooms" not in st.session_state:
-        with open(BASE_DIRECTORY_CASES + '/' + case_name + '/data/rooms.json') as rooms_file:
-            st.session_state.rooms = json.load(rooms_file)
+        st.session_state.rooms = read_json(BASE_DIRECTORY_CASES + '/' + case_name + '/data/rooms.json')
 
     if "hints" not in st.session_state:
-        with open(BASE_DIRECTORY_CASES + '/' + case_name + '/data/hints.json') as hints_file:
-            st.session_state.hints = json.load(hints_file)
+        st.session_state.hints = read_json(BASE_DIRECTORY_CASES + '/' + case_name + '/data/hints.json')
 
     if "timeline" not in st.session_state:
-        with open(BASE_DIRECTORY_CASES + '/' + case_name + '/data/timeline.json') as timeline_file:
-            st.session_state.timeline = json.load(timeline_file)
+        st.session_state.timeline = read_json(BASE_DIRECTORY_CASES + '/' + case_name + '/data/timeline.json')
 
     if 'player_position' not in st.session_state:
         st.session_state.player_position = st.session_state.mmg["player"]["position"]
@@ -46,12 +46,6 @@ def init(case_name: str) -> None:
 
     if 'ending_reached' not in st.session_state:
         st.session_state.ending_reached = False
-
-
-st.set_page_config(layout="wide")
-
-CELL_SIZE = 40
-GRID_SIZE = 9
 
 
 def display_board():
@@ -124,15 +118,8 @@ def conversation(npc):
     st.image(BASE_DIRECTORY_CASES + '/' + st.session_state.case_name + '/assets/' + npc["image"], width=200)
     st.markdown(f"**{npc['name']}**: {npc['description']}")
 
-    # -- first time
+    # -- erstes Gespräch mit Detektiv
     if "messages" not in npc:
-        npc["messages"] = [
-            {
-                "role": "system",
-                "content": f"Du bist {npc['name']}, ein NPC in einem Murder Mystery Game. Der Spieler ist der Detektiv"
-            }
-        ]
-
         if npc["name"] == st.session_state.mmg['killer']:
             taeter_verdaechtig = "Du bist der Täter. Das darfst du den Spieler(Detektiv) auf keinen Fall verraten."
         else:
@@ -143,24 +130,27 @@ def conversation(npc):
             timeline += f'Um {j["time"]} bis du im {j["location"]}\n'
             timeline += f'Deine Aktivität: {j["activity"]}\n'
         timeline += "\n"
-        content = f"""
-Beschreibung des NPC: {npc["description"]}.
-Geschichte : {st.session_state.mmg['story']}.
-Aktuelle Spielsituation: Der Spieler(Detektiv) hat dich das erste mal getroffen und verwickelt dich in ein Gespräch.
-Mehr zu dir: {npc["backstory"]}. {npc["appearance"]}
-Dein aktueller Zustand: {npc["psychological_profile"]} 
-Dein mögliches Motiv: {npc["possible_motive"]}
-{taeter_verdaechtig}
 
-{timeline}
-"""
-        npc['messages'].append(
+        content = FIRST_TALK.format(
+            name=npc['name'],
+            description=npc["description"],
+            story=st.session_state.mmg['story'],
+            backstory=npc["backstory"],
+            appearance=npc["appearance"],
+            psychological_profile=npc["psychological_profile"],
+            possible_motive=npc["possible_motive"],
+            taeter_verdaechtig=taeter_verdaechtig,
+            timeline=timeline
+        )
+
+        npc["messages"] = [
             {
                 'role': 'system',
                 'content': content
             }
-        )
-    else:
+        ]
+
+    else:  # -- alle weiteren Gespräche mit dem Detektiv
         content = f""" Aktuelle Spielsituation: Du hast bereits mit dem  Spieler(Detektiv) gesprochen. Er verwickelt 
         dich erneut in ein Gespräch."""
         npc['messages'].append(
@@ -170,7 +160,7 @@ Dein mögliches Motiv: {npc["possible_motive"]}
             }
         )
 
-    # -- ask user
+    # -- Frage des Detektiv
     change_chatbot_style()
     if prompt := st.chat_input("Deine Frage"):
         npc['messages'].append(  # save prompt
@@ -185,12 +175,12 @@ Dein mögliches Motiv: {npc["possible_motive"]}
             with st.chat_message(message['role']):
                 st.write(message['content'])
 
-    # -- get answer
+    # -- Antwort des LLMs
     if npc['messages'][-1]['role'] != "assistant" and npc['messages'][-1]['role'] != "system":
         with st.chat_message("assistant"):
             with st.spinner("Thinking..."):
                 response = st.session_state.client.chat.completions.create(
-                    model="gpt-3.5-turbo",
+                    model=st.session_state.model,
                     messages=npc['messages']
                 )
                 p = response.choices[0].message.content
@@ -228,47 +218,60 @@ def get_current_room() -> str:
     player_y = st.session_state.player_position[1]
 
     room_name = 'unbekannt'
+    room_image = ''
 
     for room in st.session_state.rooms:
         if room['x'] <= player_x < room['x'] + room['width']:
             if room['y'] <= player_y < room['y'] + room['height']:
                 room_name = room['name']
+                room_image = room['image']
                 break
 
-    return room_name
+    return room_name, room_image
 
 
 def get_persons() -> List[str]:
     return [i["name"] for i in st.session_state.npcs]
 
 
-if "set_key" not in st.session_state:
-    st.session_state.set_key = False
+if "case_name" not in st.session_state:
+    st.title("Murder Mystery Game 🔎")
 
-if "client" not in st.session_state:
-    if not st.session_state.set_key:
+if "model" not in st.session_state:
+    with st.form("Model"):
+        model = st.selectbox(
+            "Bitte wählen Sie das gewünschte LLM aus",
+            ("gpt-4o", "gpt-4o-mini", "gpt-3.5-turbo", "llama3", "gemma2")
+        )
+        submitted = st.form_submit_button("Weiter")
+        if submitted:
+            st.session_state.model = model
+
+if "model" in st.session_state and "client" not in st.session_state:
+    if st.session_state.model.startswith("gpt"):
         try:
             st.session_state.client = OpenAI(
                 api_key=st.secrets.openai_key
             )
-            st.session_state.set_key = False
         except:
-            st.session_state.set_key = True
+            with st.form("API key"):
+                st.write(
+                    "Für die Kommunikation mit ChatGPT wird ein API Key benötigt. Diesen erhalten Sie auf openai.com")
+                st.write("Sie können den Schlüssel in der Datei .streamlit/secrets.toml hinterlegen.")
+                api_key = st.text_input("Bitte API key eingeben")
+                submitted = st.form_submit_button("Weiter")
+                if submitted:
+                    st.session_state.client = OpenAI(
+                        api_key=api_key
+                    )
 
-    if st.session_state.set_key:
-        st.title("Murder Mystery Game 🔎")
-        st.write("Für die Kommunikation mit ChatGPT wird ein API Key benötigt. Diesen erhalten Sie auf openai.com")
-        st.write("Sie können den Schlüssel in der Datei .streamlit/secrets.toml hinterlegen.")
-        with st.form("API key"):
-            api_key = st.text_input("Bitte API key eingeben")
-            submitted = st.form_submit_button("Weiter")
-            if submitted:
-                st.session_state.client = OpenAI(
-                    api_key=api_key
-                )
+    else:
+        st.session_state.client = OpenAI(
+            base_url=st.session_state.ollama_path,
+            api_key='ollama'  # required, but unused
+        )
 
-if "client" in st.session_state and "case_name" not in st.session_state :
-    st.title("Murder Mystery Game 🔎")
+if "client" in st.session_state and "case_name" not in st.session_state:
     st.write("Wählen Sie den Fall aus, den Sie als Detektiv lösen wollen.")
 
     cases = get_subdirectories(BASE_DIRECTORY_CASES)
@@ -285,16 +288,17 @@ if "client" in st.session_state and "case_name" not in st.session_state :
     with st.form("Neuen Fall generieren"):
         location_val = st.text_input("Ort, an dem die Tat geschehen ist")
         time_val = st.time_input("Tat-Zeitpunkt")
+        do_proof = st.checkbox("JSON-Dateien prüfen")
 
         submitted = st.form_submit_button("Generieren")
         if submitted:
-            generate_case(location_val, time_val, BASE_DIRECTORY_CASES, LLM_MODEL, LLM_IMAGE)
+            generate_case(location_val, time_val, BASE_DIRECTORY_CASES, st.session_state.model,
+                          st.session_state.image_model, do_proof)
 
-if "client" in st.session_state and "case_name" in st.session_state :
+if "client" in st.session_state and "case_name" in st.session_state:
     st.title(st.session_state.mmg["title"] + ' 🔎')
     st.write(st.session_state.mmg["description"])
     st.write("Du bist der Detektiv :blue[D], befrage die Verdächtigen.")
-    st.write(f"Du befindest dich im Raum: {get_current_room()}")
 
     st.sidebar.title(st.session_state.mmg["title"] + " 🔎")
     st.sidebar.image(BASE_DIRECTORY_CASES + "/" + st.session_state.case_name + "/assets/title_image.jpg", width=200)
@@ -314,7 +318,14 @@ if "client" in st.session_state and "case_name" in st.session_state :
             st.session_state.ending_reached = True
 
     if not st.session_state.ending_reached:
-        col4, col5, col6 = st.columns([1, 1, 1], gap="small")
+        col4, col5 = st.columns([1, 1], gap="small")
+        with col4:
+            room_name, room_image = get_current_room()
+            st.write(f"Du befindest dich im Raum: {room_name}")
+            if len(room_image) > 0:
+                st.image(BASE_DIRECTORY_CASES + "/" + st.session_state.case_name + "/assets/" + room_image,
+                         width=320)
+
         with col5:
             display_board()
             col1, col2, col3 = st.columns([1, 1, 1], gap="small")

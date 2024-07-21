@@ -5,5 +5,8 @@
   "player": {
     "position": [0, 0]
   },
+  "victim": "Dr. Jonathan Blackwood",
+  "time": "21:30",
+  "room": "Bibliothek",
   "killer": "Isabella Blackwood"
 }

@@ -1,184 +1,184 @@
 {
     "Maximilian Weber":[
       {
-        "time": "17:30",
+        "time": "17:30-18:00",
         "location": "Büro",
         "activity": "Vorbereitung der Präsentation",
         "reason": "Sicherstellen, dass alles reibungslos abläuft",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "18:00",
+        "time": "18:00-18:30",
         "location": "Büro",
         "activity": "Durchsicht der Präsentationsfolien",
         "reason": "Finale Überprüfung",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "18:30",
+        "time": "18:30-19:00",
         "location": "Konferenzraum",
         "activity": "Letzte Besprechung mit dem Team",
         "reason": "Abschließende Vorbereitungen",
-        "companions": "Führungsteam"
+        "companions": ["Führungsteam"]
       },
       {
-        "time": "19:00",
+        "time": "19:00-19:30",
         "location": "Serverraum",
         "activity": "Manipulation der Server",
         "reason": "Vorbereitung des Mordes",
-        "companions": "Allein"
+        "companions": ["Allein"]
       }
     ],
     "Sophie Berger":
     [
       {
-        "time": "17:30",
+        "time": "17:30-18:00",
         "location": "Personalbüro",
         "activity": "Bearbeitung von Personalakten",
         "reason": "Routinearbeit",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "18:00",
+        "time": "18:00-18:30",
         "location": "Pausenraum",
         "activity": "Kurze Pause, Gespräche mit Clara Weiss",
         "reason": "Routinepause",
-        "companions": "Clara Weiss"
+        "companions": ["Clara Weiss"]
       },
       {
-        "time": "18:30",
+        "time": "18:30-19:00",
         "location": "Personalbüro",
         "activity": "Weiterarbeit an Personalakten",
         "reason": "Routinearbeit",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "19:00",
+        "time": "19:00-19:30",
         "location": "Eingangshalle",
         "activity": "Begrüßung der Gäste",
         "reason": "Empfang der Präsentationsteilnehmer",
-        "companions": "Empfangsteam"
+        "companions": ["Empfangsteam"]
       }
     ],
     "Karl Müller":
     [
       {
-        "time": "17:30",
+        "time": "17:30-18:00",
         "location": "Sicherheitsraum",
         "activity": "Überwachung der Sicherheitskameras",
         "reason": "Sicherheitschecks",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "18:00",
+        "time": "18:00-18:30",
         "location": "Sicherheitsraum",
         "activity": "Überprüfung der Sicherheitssysteme",
         "reason": "Routinecheck",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "18:30",
+        "time": "18:30-19:00",
         "location": "Sicherheitsraum",
         "activity": "Überwachung der Eingänge",
         "reason": "Sicherheitschecks",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "19:00",
+        "time": "19:00-19:30",
         "location": "Eingangshalle",
         "activity": "Überwachung der Eingänge",
         "reason": "Sicherheitschecks",
-        "companions": "Sicherheitsteam"
+        "companions": ["Sicherheitsteam"]
       }
     ],
     "Anita Schmid":[
       {
-        "time": "17:30",
+        "time": "17:30-18:00",
         "location": "Marketingabteilung",
         "activity": "Vorbereitung von Marketingmaterialien",
         "reason": "Vorbereitung auf die Markteinführung",
-        "companions": "Marketing-Team"
+        "companions": ["Marketing-Team"]
       },
       {
-        "time": "18:00",
+        "time": "18:00-18:30",
         "location": "Konferenzraum",
         "activity": "Meeting mit dem Marketing-Team",
         "reason": "Strategiebesprechung",
-        "companions": "Marketing-Team"
+        "companions": ["Marketing-Team"]
       },
       {
-        "time": "18:30",
+        "time": "18:30-19:00",
         "location": "Konferenzraum",
         "activity": "Abschlussmeeting mit dem Marketing-Team",
         "reason": "Letzte Strategiebesprechung",
-        "companions": "Marketing-Team"
+        "companions": ["Marketing-Team"]
       },
       {
-        "time": "19:00",
+        "time": "19:00-19:30",
         "location": "Konferenzraum",
         "activity": "Letzte Vorbereitungen für die Präsentation",
         "reason": "Sicherstellen, dass alles bereit ist",
-        "companions": "Marketing-Team"
+        "companions": ["Marketing-Team"]
       }
     ],
    "Thomas Bauer":[
       {
-        "time": "17:30",
+        "time": "17:30-18:00",
         "location": "Entwicklerbüro",
         "activity": "Fehlerbehebung im Code",
         "reason": "Letzte Optimierungen am Produkt",
-        "companions": "Entwickler-Team"
+        "companions": ["Entwickler-Team"]
       },
       {
-        "time": "18:00",
+        "time": "18:00-18:30",
         "location": "Serverraum",
         "activity": "Serverwartung und Updates",
         "reason": "Technische Wartung",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "18:30",
+        "time": "18:30-19:00",
         "location": "Entwicklerbüro",
         "activity": "Testen der letzten Änderungen",
         "reason": "Sicherstellen der Funktionalität",
-        "companions": "Entwickler-Team"
+        "companions": ["Entwickler-Team"]
       },
       {
-        "time": "19:00",
+        "time": "19:00-19:30",
         "location": "Serverraum",
         "activity": "Überprüfung der Server",
         "reason": "Sicherstellen der technischen Funktion",
-        "companions": "Allein (später Maximilian Weber)"
+        "companions": ["Allein (später Maximilian Weber)"]
       }
     ],
    "Clara Weiss":[
       {
-        "time": "17:30",
+        "time": "17:30-18:00",
         "location": "Pausenraum",
         "activity": "Kaffee trinken und Notizen durchgehen",
         "reason": "Kurze Pause",
-        "companions": "Allein"
+        "companions": ["Allein"]
       },
       {
-        "time": "18:00",
+        "time": "18:00-18:30",
         "location": "Pausenraum",
         "activity": "Kaffee trinken und Gespräche mit Sophie Berger",
         "reason": "Routinepause",
-        "companions": "Sophie Berger"
+        "companions": ["Sophie Berger"]
       },
       {
-        "time": "18:30",
+        "time": "18:30-19:00",
         "location": "Personalbüro",
         "activity": "Unterstützung von Sophie Berger",
         "reason": "Erfahrung sammeln",
-        "companions": "Sophie Berger"
+        "companions": ["Sophie Berger"]
       },
       {
-        "time": "19:00",
+        "time": "19:00-19:30",
         "location": "Eingangshalle",
         "activity": "Unterstützung beim Empfang der Gäste",
         "reason": "Hilfestellung leisten",
-        "companions": "Empfangsteam"
+        "companions": ["Empfangsteam"]
       }
     ]
   }

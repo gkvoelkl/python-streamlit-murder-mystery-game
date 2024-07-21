@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import requests
+import json
 
 from typing import Tuple
 
@@ -18,6 +19,11 @@ def get_subdirectories(directory):
 def save_as_file(content: str, filename: str) -> None:
     with open(filename, 'w') as f:
         f.write(to_json_string(content))
+
+
+def read_json(file: str) -> str:
+    with open(file) as f:
+        return json.load(f)
 
 
 def to_json_string(value: str) -> str:
@@ -54,18 +60,32 @@ def get_image_and_save(prompt: str, assets_path: str,
     download_image(image_url, os.path.join(assets_path, file_name))
 
 
-def ask_llm(messages, prompt: str, llm_model: str, debug=False) -> Tuple[any, str]:
+def test_llm(llm_model: str) -> None:
+    print(f"client {st.session_state.client.base_url} {st.session_state.client.api_key}")
+    messages = [
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Who won the world series in 2020?"},
+        {"role": "assistant", "content": "The LA Dodgers won in 2020."},
+    ]
+
+    ask_llm(messages, "Where was it played", llm_model, debug=True)
+
+
+def ask_llm(messages, prompt: str, llm_model: str, debug=True) -> Tuple[any, str]:
     messages.append({
         'role': "user",
         'content': prompt
     })
     with st.spinner("Thinking..."):
+        if debug:
+            print(f"prompt {llm_model} {prompt}")
         response = st.session_state.client.chat.completions.create(
             model=llm_model,
             messages=messages
         )
         p = response.choices[0].message.content
-        if debug: st.write(p)
+        if debug:
+            st.write(p)
         messages.append({
             'role': "assistant",
             'content': p

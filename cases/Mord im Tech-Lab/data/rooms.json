@@ -5,7 +5,9 @@
     "y": 0,
     "width": 3,
     "height": 3,
-    "color": "lightgrey"
+    "color": "lightgrey",
+    "description": "Die Eingangshalle ist der zentrale Punkt des Gebäudes, wo Besucher und Mitarbeiter empfangen werden. Hier befindet sich ein Empfangstresen und Sitzgelegenheiten.",
+    "image": "eingangshalle.jpg"
   },
   {
     "name": "Konferenzraum",
@@ -13,7 +15,9 @@
     "y": 0,
     "width": 3,
     "height": 3,
-    "color": "blue"
+    "color": "blue",
+    "description": "Der Konferenzraum ist ausgestattet mit einem großen Tisch und mehreren Stühlen. Hier finden wichtige Besprechungen und Präsentationen statt.",
+    "image": "konferenzraum.jpg"
   },
   {
     "name": "Entwicklerbüro",
@@ -21,7 +25,9 @@
     "y": 0,
     "width": 3,
     "height": 3,
-    "color": "green"
+    "color": "green",
+    "description": "Das Entwicklerbüro ist der Arbeitsplatz der Programmierer. Es ist ausgestattet mit Computern und Arbeitsplätzen, die für die Entwicklung neuer Software genutzt werden.",
+    "image": "entwicklerbuero.jpg"
   },
   {
     "name": "Serverraum",
@@ -29,7 +35,9 @@
     "y": 3,
     "width": 3,
     "height": 3,
-    "color": "red"
+    "color": "red",
+    "description": "Der Serverraum beherbergt die wichtigsten technischen Geräte des Unternehmens. Hier stehen die Server, die für den Betrieb der IT-Infrastruktur notwendig sind.",
+    "image": "serverraum.jpg"
   },
   {
     "name": "Personalbüro",
@@ -37,7 +45,9 @@
     "y": 3,
     "width": 3,
     "height": 3,
-    "color": "yellow"
+    "color": "yellow",
+    "description": "Im Personalbüro kümmern sich die Mitarbeiter um Personalangelegenheiten und die Verwaltung der Mitarbeiterdaten.",
+    "image": "personalbuero.jpg"
   },
   {
     "name": "Marketingabteilung",
@@ -45,7 +55,9 @@
     "y": 3,
     "width": 3,
     "height": 3,
-    "color": "orange"
+    "color": "orange",
+    "description": "Die Marketingabteilung ist verantwortlich für die Werbung und das Branding des Unternehmens. Hier werden Marketingstrategien entwickelt und umgesetzt.",
+    "image": "marketingabteilung.jpg"
   },
   {
     "name": "Pausenraum",
@@ -53,7 +65,9 @@
     "y": 6,
     "width": 3,
     "height": 3,
-    "color": "purple"
+    "color": "purple",
+    "description": "Der Pausenraum bietet den Mitarbeitern eine Möglichkeit, sich zu entspannen und ihre Pausen zu verbringen. Hier gibt es eine kleine Küche und Sitzgelegenheiten.",
+    "image": "pausenraum.jpg"
   },
   {
     "name": "Archiv",
@@ -61,7 +75,9 @@
     "y": 6,
     "width": 3,
     "height": 3,
-    "color": "brown"
+    "color": "brown",
+    "description": "Im Archiv werden wichtige Dokumente und Akten des Unternehmens aufbewahrt. Der Raum ist voll mit Regalen und Aktenschränken.",
+    "image": "archiv.jpg"
   },
   {
     "name": "Geschäftsführungsbüro",
@@ -69,6 +85,8 @@
     "y": 6,
     "width": 3,
     "height": 3,
-    "color": "darkgrey"
+    "color": "darkgrey",
+    "description": "Das Geschäftsführungsbüro ist der Arbeitsplatz des CEO. Hier werden strategische Entscheidungen getroffen und wichtige Besprechungen abgehalten.",
+    "image": "geschaeftsfuehrungsbuero.jpg"
   }
 ]
